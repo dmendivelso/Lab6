@@ -3,7 +3,7 @@ name: Build and Deploy to GKE
 # Trigger on push to main branch
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 env:
   PROJECT_ID: devops-test-474122          # Replace with your GCP project ID
