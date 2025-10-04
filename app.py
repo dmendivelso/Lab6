@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "¡Hola desde el laboratorio 6! 🚀 "
+    return "¡Hola desde la versión 2.0! 🎉 "
 # Health check endpoint for Kubernetes probes
 @app.route("/health")
 def health():
